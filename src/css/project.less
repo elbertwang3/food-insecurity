@@ -1,0 +1,506 @@
+.snap-svg {
+	font-family: "Assistant";
+	
+	.background {
+		fill: none;
+  	pointer-events: all;
+	}
+	
+	.tract {
+		cursor: pointer;
+		stroke: none;
+		&:hover {
+	  	stroke: #353535;
+	  	cursor: pointer;
+	  }
+	}
+	.county-outline {
+	  fill: none;
+	  pointer-events: none;
+	}
+	.county {
+		fill: none;
+		pointer-events: all;
+		stroke: none;
+		&:hover {
+	  	stroke: #353535;
+	  	cursor: pointer;
+	  }
+	}
+
+	.big-cities {
+		.bay-area-city-g {
+			pointer-events: none;
+			.city-text {
+			
+				alignment-baseline: middle;
+
+		   	text-shadow:
+		     -1px -1px 0px #fff,  
+		      1px -1px 0px #fff,
+		      -1px 1px 0px #fff,
+		      1px 1px 0px #fff;
+
+		    -webkit-text-shadow:
+		     -1px -1px 0px #fff,  
+		      1px -1px 0px #fff,
+		      -1px 1px 0px #fff,
+		      1px 1px 0px #fff;
+
+	      -moz-text-shadow:
+	      -1px -1px 0px #fff,  
+	      1px -1px 0px #fff,
+	      -1px 1px 0px #fff,
+	      1px 1px 0px #fff;
+
+
+
+			}
+
+			.city-circle {
+
+				fill: none;
+				stroke: #353535;
+			}
+
+		}
+	}
+	.legend-anno {
+			font-family: "Assistant";
+			font-weight: 700;
+			text-anchor: middle;
+			font-size: 18px;
+			text-shadow:
+		     -1px -1px 0px #fff,  
+		      1px -1px 0px #fff,
+		      -1px 1px 0px #fff,
+		       1px 1px 0px #fff;
+
+		  -webkit-text-shadow:
+	     -1px -1px 0px #fff,  
+	      1px -1px 0px #fff,
+	      -1px 1px 0px #fff,
+	      1px 1px 0px #fff;
+
+      -moz-text-shadow:
+      -1px -1px 0px #fff,  
+      1px -1px 0px #fff,
+      -1px 1px 0px #fff,
+      1px 1px 0px #fff;
+
+		  @media @mobile {
+		  	font-size: 14px;
+		  }
+		}
+	.legend {
+		.legend-rect {
+		}
+		.tick-g {
+			.tick-line {
+				stroke: #353535;
+			}
+
+			.tick-text {
+				font-size: 12px;
+				text-anchor: middle;
+				alignment-baseline: middle;
+				text-shadow:
+		     -1px -1px 0px #fff,  
+		      1px -1px 0px #fff,
+		      -1px 1px 0px #fff,
+		       1px 1px 0px #fff;
+
+		    -webkit-text-shadow:
+		     -1px -1px 0px #fff,  
+		      1px -1px 0px #fff,
+		      -1px 1px 0px #fff,
+		      1px 1px 0px #fff;
+
+	      -moz-text-shadow:
+	      -1px -1px 0px #fff,  
+	      1px -1px 0px #fff,
+	      -1px 1px 0px #fff,
+	      1px 1px 0px #fff;
+			}
+		}
+	}
+}
+.sttooltip {
+		position: absolute;
+		font-family: "Assistant";
+		z-index: 502;
+		color: #353535;
+		width: 200px;
+		padding: 0.5em;
+  	height: auto;
+		visibility: hidden;
+		border: 1px solid rgba(193, 193, 193, 0.8);
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+		background: rgba(255,255,255,0.9);
+		pointer-events: none;
+		  
+		@media @mobile {
+			pointer-events: all;
+
+		}
+
+		.sttooltip-tract {
+		  font-size: 20px;
+		  font-weight: 700;
+		  line-height: 1em;
+
+		}
+
+		.sttooltip-county {
+		  font-size: 16px;
+		  line-height: 1em;
+
+		}
+
+		.sttooltip-population {
+			font-size: 12px;
+			color: #808080;
+
+		}
+
+		.sttooltip-header {
+			font-size: 12px;
+			font-weight: 700;
+			margin-top: 10px;
+			text-transform: uppercase;
+			border-bottom: 1px solid #cdcdcd;
+
+		}
+
+		
+		.row {
+			font-size: 12px;
+
+			.type {
+				display: inline-block;
+				width: 75%;
+
+			}
+			.percent {
+				display: inline-block;
+				width: 25%;
+				text-align: right;
+
+			}
+			
+		}
+	}
+
+
+
+.legend .tick text {
+	font-family: "Assistant";
+	font-size: 24px;
+
+}
+
+.legend .legend-desc {
+	font-family: "Assistant";
+	font-weight: 700;
+	font-size: 42px;
+}
+
+.placename {
+	font-family: "Assistant";
+	font-weight: 700;
+	font-size: 18px;
+	fill: #353535;
+}
+
+.line {
+	fill: none;
+    stroke: #ccc;
+    stroke-opacity: 1;
+    pointer-events: none;
+}
+
+.pop {
+	//pointer-events: none;
+    opacity: 1;
+    stroke-width: 1px;
+    stroke: #666;
+
+}
+
+.minWageText {
+	font-family: "Assistant";
+	font-size: 12px;
+	fill: #353535;
+}
+
+.legendText {
+	font-family: "Assistant";
+	font-size: 12px;
+	fill: #353535;
+	alignment-baseline: middle;
+	text-anchor: start;
+}
+
+
+.legendCircle {
+	fill-opacity: 1;
+    stroke-width: 1px;
+    stroke: #666;
+}
+
+.gap {
+	stroke: @highlight;
+	stroke-width: 3px;
+}
+
+.annotations g path {
+	fill: none;
+	stroke-width: 1px;
+	stroke: #353535;
+	stroke-opacity: 0.5;
+	pointer-events: none;
+}
+
+.annotations g text {
+	font-family: "Assistant";
+	font-size: 12px;
+	fill: #353535;
+}
+
+.popText {
+	font-family: "Assistant";
+	font-size: 14px;
+	fill: #353535;
+	alignment-baseline: middle;
+
+}
+
+.caveat {
+	font-family: "Assistant";
+	font-size: 12px;
+	fill: #353535;
+	text-anchor: start;
+
+}
+
+.guideline {
+	stroke-dasharray: 4,4;
+	stroke: #ccc;
+    stroke-opacity: 1;
+
+}
+
+
+
+.wages {
+	font-size: 12px;
+	color: #404040;
+
+}
+#self-sufficiency {
+	width: 100%;
+	position: relative;
+
+
+	.selfsufficiency-svg {
+		font-family: "Assistant";
+		.sscounties {
+
+			.county {
+				stroke: white;
+				stroke-width: 0.35;
+				fill-opacity: 1;
+			}
+
+			.county:hover {
+				stroke: #353535;
+				stroke-width: 1.5px;
+				cursor: pointer;
+			}
+
+		}
+		.california-cities {
+
+			.california-city-g {
+				pointer-events: none;
+			
+				.city-text {
+					text-anchor: start;
+					font-size: 14px;
+					alignment-baseline: middle;
+
+			   text-shadow:
+			     -1px -1px 0px #fff,  
+			      1px -1px 0px #fff,
+			      -1px 1px 0px #fff,
+			       1px 1px 0px #fff;
+
+			    -webkit-text-shadow:
+			      -1px -1px 0px #fff,  
+			      1px -1px 0px #fff,
+			      -1px 1px 0px #fff,
+			      1px 1px 0px #fff;
+
+		      -moz-text-shadow:
+			      -1px -1px 0px #fff,  
+			      1px -1px 0px #fff,
+			      -1px 1px 0px #fff,
+			      1px 1px 0px #fff;
+
+				}
+
+				.city-circle {
+
+					fill: none;
+					stroke: black;
+					stroke-width: 0.8px;
+				}
+			}
+		}
+
+		.legend-anno {
+			font-family: "Assistant";
+			font-weight: 700;
+			text-anchor: middle;
+			font-size: 18px;
+			text-shadow:
+		     -1px -1px 0px #fff,  
+		      1px -1px 0px #fff,
+		      -1px 1px 0px #fff,
+		       1px 1px 0px #fff;
+		  -webkit-text-shadow:
+	     	-1px -1px 0px #fff,  
+	      1px -1px 0px #fff,
+	      -1px 1px 0px #fff,
+	      1px 1px 0px #fff;
+
+      -moz-text-shadow:
+	      -1px -1px 0px #fff,  
+	      1px -1px 0px #fff,
+	      -1px 1px 0px #fff,
+	      1px 1px 0px #fff;
+
+		  @media @mobile {
+		  	font-size: 14px;
+		  }
+		}
+		.legend {
+			.legend-rect {
+			}
+			.tick-g {
+				.tick-line {
+					stroke: #353535;
+				}
+
+				.tick-text {
+					font-size: 12px;
+					text-anchor: middle;
+					alignment-baseline: middle;
+				}
+			}
+		}
+	}
+}
+
+.sstooltip {
+		position: absolute;
+		font-family: "Assistant";
+		z-index: 502;
+		color: #353535;
+		width: 250px;
+		padding: 0.5em;
+  	height: auto;
+		visibility: hidden;
+		border: 1px solid rgba(193, 193, 193, 0.8);
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+		background: rgba(255,255,255,0.9);
+		pointer-events: none;
+		  
+		@media @mobile {
+			pointer-events: all;
+
+		}
+
+		.sstooltip-header {
+		  display: inline-block;
+		  font-size: 20px;
+		  font-weight: 700;
+		  line-height: 1em;
+
+		}
+
+		.ss-header {
+			font-size: 12px;
+			font-weight: 700;
+			margin-top: 10px;
+			text-transform: uppercase;
+			border-bottom: 1px solid #cdcdcd;
+
+		}
+
+		.budget-header {
+			font-size: 12px;
+			font-weight: 700;
+			margin-top: 10px;
+			text-transform: uppercase;
+			border-bottom: 1px solid #cdcdcd;
+		}
+
+		.wage-rows {
+			.wage-row {
+				font-size: 12px;
+
+				.wage-type {
+					display: inline-block;
+					width: 75%;
+
+				}
+				.wage-amount {
+					display: inline-block;
+					width: 25%;
+					text-align: right;
+
+				}
+			}
+		}
+
+		.type-table {
+			.table-row {
+				font-size: 12px;
+
+				.table-type {
+					display: inline-block;
+					width: 50%;
+
+				}
+
+				.table-amount {
+					display: inline-block;
+					width: 25%;
+
+				}
+
+				.table-percent {
+					display: inline-block;
+					width: 25%;
+					text-align: right;
+				}
+			}
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

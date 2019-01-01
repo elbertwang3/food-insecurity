@@ -1,0 +1,26 @@
+place,min_wage,county,two_adults,snap_threshold,self_sufficiency
+California,11,n/a,45760,49200,63979
+San Francisco County,15,San Francisco,62400,49200,123442
+Mountain View,15,Santa Clara,62400,49200,106981
+Sunnyvale,15,Santa Clara,62400,49200,106981
+Emeryville,15,Alameda,62400,49200,102877
+Berkeley,13.75,Alameda,57200,49200,98296
+El Cerrito,13.60,Contra Costa,56576,49200,102877
+San Mateo,13.50,San Mateo,56160,49200,125995
+Cupertino,13.50,Santa Clara,56160,49200,106981
+Los Altos,13.50,Santa Clara,56160,49200,106981
+Milpitas,13.50,Santa Clara,56160,49200,106981
+Palo Alto,13.50,Santa Clara,56160,49200,106981
+San Jose,13.50,Santa Clara,56160,49200,106981
+Richmond,13.41,Contra Costa,55785.6,49200,102877
+Oakland,13.23,Alameda,55036.8,49200,98296
+Santa Clara,13,Santa Clara,54080,49200,106981
+San Leandro,13,Alameda,54080,49200,98296
+Marin County,11,Marin,45760,49200,129313
+San Mateo County,11,San Mateo,45760,49200,125995
+Contra Costa County,11,Contra Costa,45760,49200,102877
+Santa Clara County,11,Santa Clara,45760,49200,106981
+Alameda County,11,Alameda,45760,49200,98296
+Sonoma County,11,Sonoma,45760,49200,83537
+Napa County,11,Napa,45760,49200,79844
+Solano County,11,Solano,45760,49200,70380

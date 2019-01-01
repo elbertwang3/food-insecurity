@@ -1,0 +1,34 @@
+<%= t.include("partials/_head.html") %>
+
+  
+
+
+  
+
+
+
+  <div class="container">
+    <div id="snap-map"></div>
+     <!--<div class="snap-map2"><img src="assets/final3.svg" width="400"></div>-->
+    <div id="lollipop-chart"></div>
+    <div id="self-sufficiency">
+    </div>
+
+
+
+  </div>
+
+  
+
+
+ <script>
+	var snap_tract_data = <%= JSON.stringify(json.ca_topo) %>;
+	var cities_data = <%= JSON.stringify(csv.cities) %>;
+	var minwage_data = <%= JSON.stringify(csv.minwage) %>;
+  var selfsufficiency_data = <%= JSON.stringify(json.selfsufficiency_topo) %>;
+  var california_cities = <%= JSON.stringify(csv.californiacities) %>;
+</script>
+</script>
+  <script src="app.js" async></script>  
+  <%= t.include("partials/_resizer-script.html") %>
+<%= t.include("partials/_footer.html") %>
